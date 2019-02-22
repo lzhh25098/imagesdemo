@@ -6,7 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class imageController {
     @RequestMapping("/hello")
-    public String compress(){
+    public String compress()
+    {
+        int i = 0;
         return "hello";
     }
 }
